@@ -1,6 +1,7 @@
 # 键映 KeyCast (macOS)
 
-mac os 按键显示
+MacOS 按键显示
+
 一个 macOS 版的按键 / 鼠标 / 手柄显示悬浮窗，用于直播和录屏时实时显示输入操作。同时可以配合 OBS「窗口采集」使用。
 
 ![license](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey.svg)
