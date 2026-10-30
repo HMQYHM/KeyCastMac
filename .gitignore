@@ -1,0 +1,15 @@
+# Build artifacts
+.build/
+dist/
+
+# macOS
+.DS_Store
+
+# Signing credentials (do not commit)
+signing-cert.pem
+signing-identity.p12
+signing-key.pem
+
+# Archives
+*.dmg
+*.zip
