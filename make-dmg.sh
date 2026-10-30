@@ -10,6 +10,7 @@ trap 'rm -rf "$STAGING"' EXIT
 
 echo "==> 准备 DMG 内容"
 cp -R "dist/$APP" "$STAGING/"
+ln -s /Applications "$STAGING/Applications"
 
 rm -f "$DMG"
 echo "==> 创建 DMG"
