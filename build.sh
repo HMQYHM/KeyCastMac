@@ -15,8 +15,8 @@ cp "$BIN" "$DIST/Contents/MacOS/KeyCast"
 cp "Info.plist" "$DIST/Contents/Info.plist"
 
 echo "==> codesign"
-if security find-identity -v -p codesigning 2>/dev/null | grep -q "KeyCast Dev"; then
-  codesign --force --timestamp=none --sign "KeyCast Dev" "$DIST"
+if security find-identity -v -p codesigning 2>/dev/null | grep -q "PA Keystroke Dev"; then
+  codesign --force --timestamp=none --sign "PA Keystroke Dev" "$DIST"
 else
   codesign --force --timestamp=none --sign - "$DIST"
 fi
