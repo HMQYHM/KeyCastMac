@@ -2,7 +2,7 @@
 
 一个 macOS 版的按键 / 鼠标 / 手柄显示悬浮窗，用于直播和录屏时实时显示输入操作。配合 OBS「窗口采集」使用。
 
-![license](https://img.shields.io/badge/license-MIT-blue.svg)
+![license](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey.svg)
 ![platform](https://img.shields.io/badge/platform-macOS%2013%2B-lightgrey.svg)
 ![swift](https://img.shields.io/badge/swift-5.9%2B-orange.svg)
 
@@ -76,6 +76,6 @@
       KeyboardPresets.swift  # 键盘配列预设
       Localization.swift     # 多语言
 
-## 开源协议
+## 许可证
 
-MIT License
+本软件采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可证（署名-非商业性使用-相同方式共享），**禁止商业用途**。详见 [LICENSE](LICENSE)。
